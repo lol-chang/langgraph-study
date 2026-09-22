@@ -1,0 +1,13 @@
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+
+# 환경변수 / 시크릿
+.env
+.env.*
+!.env.example
+
+# OS / 에디터
+.DS_Store
+.vscode/
