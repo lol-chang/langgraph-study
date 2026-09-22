@@ -1,6 +1,9 @@
 from typing import TypedDict
+from typing import Annotated
+from operator import add
 
 
 class State(TypedDict):
-    user_input: str
-    bot_response: str
+    text: str
+    history: Annotated[list[str], add]
+    steps: int
